@@ -11,3 +11,12 @@ Input dataset is CSV, each record represents 1 minute of daily quotes, one day h
 Output dataset is CSV, each record contains the class off one input record, format is:
   Index long int  << Index number of a Bitcoin quote in original database 
   Class int       << Calculated class according to classification rule
+
+How to run programs
+  Sequential code
+  Compile .cpp using g++ or nvcc >> nvcc source.cpp -o execfile
+  ./execfile datafile.csv
+  
+  Parallel code
+  Compile .cpp using nvcc >> nvcc source.cu -o execfile
+  ./execfile datafile.csv NumberOfThreads   (can be any number of threads you want, 64, 256 ... up to 1024)
