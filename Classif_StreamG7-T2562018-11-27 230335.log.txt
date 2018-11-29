@@ -1,0 +1,9 @@
+Processado em 2018-11-27 230335
+Processado em 666 blocos com 256 threads, com 100 partes
+Tempo total de classificaçao (ler CSV e classificar via stream/kernel)= 8.14614
+Tempo total de Stream Synchronize >> host = 0.001321
+Tempo para exportar classificaçao para CSV= 1.33689
+Tempo para liberar memoria GPU= 0.04064
+Total de registros classificados= 17029283
+Tempo total de processamento= 1.84466e+13
+Tempo total de processamento 2 = 9.69975

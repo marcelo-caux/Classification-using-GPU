@@ -1,0 +1,7 @@
+Processado em 2018-11-23 16-12-53
+Processado em 16631 blocos com 1024 threads
+Tempo total de classificaçao (ler CSV e classificar via kernel)= 7.77017
+Tempo para exportar classificaçao para CSV= 1.52353
+Total de registros classificados= 17029283
+Tempo total de processamento= 1.84466e+13
+Tempo total de processamento 2 = 9.36721
